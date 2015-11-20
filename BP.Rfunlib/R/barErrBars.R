@@ -30,7 +30,7 @@
 #' screen(2)
 #' barplot(tdata2)
 #' 
-#' barErrBars(tdata1, terr1, screen=1) # add error bars toa specific screen later
+#' barErrBars(tdata1, terr1, screen=1) # add error bars to a specific screen later
   
 barErrBars <- function(variable, errors, errplot=TRUE, lwd=1, col="black", screen=screen()) {
   xpos <- barplot(variable, plot=FALSE)
