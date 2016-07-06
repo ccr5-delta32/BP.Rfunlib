@@ -1,5 +1,4 @@
-## A function to plot ADMIXTURE results in a pretty way
-##
+## A function to plot ADMIXTURE results in a pretty way ##
 ## It takes an array with the Q's from ADMIXTURE as it's sole argument but 
 ## the Genotypes labels should be present as rownames in order for them to 
 ## appear on the x-axis. This array is sorted according to the plot intern-
